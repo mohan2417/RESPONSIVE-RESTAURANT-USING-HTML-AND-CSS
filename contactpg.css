@@ -1,0 +1,87 @@
+body{
+    background: url("C:/Users/mohan/Desktop/html and css class/RESPONSIVE RESTAURANT USING HTML AND CSS/canbac.jpg");    
+}
+body:focus{
+    width: fit-content;
+}
+.sform{
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 30px;
+    margin: 40px auto;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px 20px 5px;
+    width: 400px;
+}
+.fn{
+    display:block;
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color:white;
+    text-shadow: 2px;
+    text-decoration: aqua;
+    width: 100%;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(33, 6, 202);
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(241, 43, 13);
+}
+button{
+    display: flex;
+    flex-direction: column;
+      margin-left: 12em;
+      width: 60px;
+    border: 1px solid blue;
+    color: rgb(97, 12, 224);
+    box-shadow: 2px;
+    border-radius: 5px;
+    padding: 4px 4px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* margin-left: 100px; */
+}
+input{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    
+ 
+}
+.aa{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 15px;
+    text-align: right;
+   
+   
+}
+.aa:hover{
+    color: blue;
+}
+input#ck{
+   width: 10px;
+   
+}
+label{
+    color: white;
+    font-size: 10px;
+   font-weight: 200px;
+   text-transform: uppercase;
+  text-align: justify;
+}
+

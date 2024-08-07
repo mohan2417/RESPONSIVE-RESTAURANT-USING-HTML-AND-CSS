@@ -1,0 +1,123 @@
+body{
+    /* background-image: url("D:/Dowloads/6050624.jpg"); */
+    background: repeating-linear-gradient(rgb(204, 216, 216) 10%,rgb(209, 230, 227) 50%,rgb(191, 206, 210) 12%);
+    margin:0px;
+    padding: 0px;
+    fill-opacity: .5;
+   
+
+}
+
+.bo {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(201, 9, 16);
+    color: yellow;
+  }
+  .gour{
+    float: left; 
+    opacity: 1;
+    background-color: rgba(234, 227, 40, 0.838);
+    width: 60px;
+    border-radius: 3px;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+
+.clar{
+    display: flex;
+    
+   width: fit-content;
+    height: fit-content;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(4, 86, 59);
+    text-align: justify;
+     
+}
+.abo{
+  
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(400px , 1fr));
+    gap: 50px;
+   margin-left: 30px ;
+   
+   backdrop-filter: drop-shadow(20px);
+   backdrop-filter: none;
+  
+}
+h1.hh{
+    text-shadow: 2px 2px 2px blue;
+   text-decoration: underline;
+    text-transform: uppercase; 
+}
+a.rs{
+    float: right; 
+    opacity: 1;
+    background-color:rgba(234, 227, 40, 0.838);
+    width: 50px;
+    border-radius: 3px;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 2px;
+    
+}
+.rs:hover{
+    background-color: aqua;
+    color: blue;
+}
+.gour:hover{
+    background-color: aqua;
+    color: blue;
+}
+h4{
+    color: rgb(0, 225, 255);
+}
+h2,h1.cent{
+    color: rgb(129, 220, 220);
+    text-shadow: 2px 2px 2px blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.tg:first-letter{
+    font-size: 2em;
+}
+.tg{
+    font-size: 20px;
+    color: rgb(50, 4, 119);
+    text-align: justify;
+    display: flex;
+    
+}
+hr{
+    display: flex;
+}
+footer>p{
+    color: rgb(100, 100, 6);
+}
+a.tf{
+    color: rgb(219, 139, 19);
+    text-decoration: none;
+}
+hr#shs{
+    box-shadow:   0px 3px 3px rgb(226, 43, 83);
+   
+}
+@media all and (min-width:700px) {
+    body{
+          width: 98%;
+    }
+    .image{
+          display: flex;
+    }
+    
+}
+

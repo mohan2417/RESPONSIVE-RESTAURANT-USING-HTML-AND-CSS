@@ -1,0 +1,214 @@
+body{
+    background: url("C:/Users/mohan/Desktop/html and css class/RESPONSIVE RESTAURANT USING HTML AND CSS/img7.jpg");
+    border-width: 50%;
+    margin: 0px;
+    padding: 0px;
+  
+}
+h2.anq{
+    text-align: right;
+    
+}
+.anq>a{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(0, 255, 42);
+    box-sizing: border-box;
+    opacity: 1;
+    background-color: rgba(17, 59, 211, 0.559);
+    width: 30px;
+    border-radius: 3px;
+  
+
+}
+
+.anq>a:hover{
+   background-color: rgb(59, 182, 212);
+    
+    position: sticky;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(11, 180, 223);
+    text-shadow: 2px 2px 2px blue;
+    
+   
+}
+marquee{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px green;
+    color: rgb(9, 110, 113);
+    font-size: 30px;
+}
+ul{
+   margin-left: 600px; 
+    box-sizing:border-box   yellow;
+    box-shadow: 0px 2px 2px 2px blue;
+    border-radius: 2px;
+   width: 200px;
+   
+}
+ul>li{
+    color: rgb(9, 215, 181);
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ul>li:hover{
+ color:blue;
+}
+
+div.ma{
+    text-align: center;
+
+}
+h1#menuh{
+    text-align: center;
+
+
+}
+th,td{
+    padding: 5px;
+    text-align: center;
+    
+}
+.arr{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(400px , 1fr));
+    gap: 50px;
+}
+table{
+ border-collapse:collapse;
+}
+.mainco{
+    
+    border: 6px rgb(7, 163, 191);
+    border-radius: 5px;
+    color: rgb(210, 209, 219);
+  font-weight: bold;
+  font-style: oblique;
+ 
+  }
+   
+
+.mainco:hover{
+    transform: scale(1.2);
+    
+}
+.ch:hover{
+    transform: scale(1.2);
+}
+.mh:hover{
+    transform: scale(1.2);
+}
+.ch{
+    
+   
+    border: 6px rgb(7, 163, 191);
+  color:whitesmoke;
+  font-weight: bold;
+  font-style: oblique;
+ 
+
+}
+.mh{
+    
+    border: 6px rgb(7, 163, 191);
+    color:whitesmoke;
+  font-weight: bold;
+  font-style: oblique;
+}
+div#copyright{
+    color: aliceblue;
+    
+}
+footer>div>ol>li{
+    text-align: center;
+   
+}
+#loch{
+    text-align:  center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(146, 62, 225);
+    color: rgb(99, 16, 177);
+ 
+    
+}
+
+div>address{
+    display: inline-table;
+    text-align: center;
+   margin: 50px auto;
+
+
+}
+.loca{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(400px , 1fr));
+    gap: 50px;
+}
+#kk{
+    display: inline-table;
+    box-shadow: 2px 2px 4px 4px rgb(113, 4, 93);
+    color: white;
+}
+#rr{
+    display: inline-table;
+    margin: ;
+    box-shadow: 2px 2px 4px 4px yellow;
+    color: white;
+   
+}
+#ss{
+    display: inline-table;
+    align-content: center;
+   box-shadow: 2px 2px 4px 4px rgb(8, 30, 131);
+   color: white;
+}
+#rr:hover{
+    transform: scale(1.2);
+}
+#kk:hover{
+    transform: scale(1.2);
+}
+#ss:hover{
+    transform: scale(1.2);
+}
+ div.tagl1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:whitesmoke;
+ }
+ div.tagl2{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:whitesmoke;
+ }
+ .head{
+    text-align: center;
+ }
+ div.callus{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:whitesmoke;
+ }
+ button:hover{
+    background-color: aqua;
+    
+ }
+ button{
+    border-radius: 6px ;
+ }
+ tr:nth-child(odd){
+    color: rgb(6, 104, 134);
+    opacity: .5px;
+ }
+
+ 
